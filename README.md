@@ -50,14 +50,19 @@
 
 ## About
 
-`Calib3D` is a comprehensive benchmark targeted at probing the uncertainties of 3D scene understanding models in real-world conditions. It encompasses a systematic study of state-of-the-art models across diverse 3D datasets, laying a solid foundation for the future research and development of reliable 3D scene understanding models.
+`Calib3D` is a comprehensive benchmark targeted at probing the uncertainties of 3D scene understanding models in real-world conditions. It encompasses a systematic study of state-of-the-art models across diverse 3D datasets, laying a solid foundation for the future development of reliable 3D scene understanding systems.
+
+- **Aleatoric Uncertainty in 3D:** We examine how intrinsic factors, such as sensor measurement noises and point cloud density variations, contribute to data uncertainty in 3D scene understanding. Such uncertainty cannot be reduced even with more data or improved models, necessitating efforts that effectively interpret and quantify this inherent variability.
+- **Epistemic Uncertainty in 3D:** Different from the rather unified network structures in 2D, 3D scene understanding models shed a wider array of structures due to the complex nature of 3D data processing. Our investigation extends to the model uncertainty associated with the diverse 3D architectures, highlighting the importance of addressing knowledge gaps in model training and data representation.
 
 
 ### Motivation
 
 | <img src="docs/figs/teaser.png" align="center" width="95%"> |
 | :-: |
-| Well-calibrated 3D scene understanding models are anticipated to deliver *low uncertainties* when predictions are accurate and *high uncertainties* when predictions are inaccurate. |
+| Well-calibrated 3D scene understanding models are anticipated to deliver *low uncertainties* when predictions are accurate and *high uncertainties* when predictions are inaccurate. The plots shown are the point-wise expected calibration error (ECE) rates. The colormap goes from *dark* to *light* denoting *low* and *high* error rates, respectively. |
+
+Visit our [project page]() to explore more examples. :blue_car:
 
 
 
