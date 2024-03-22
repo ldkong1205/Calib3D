@@ -84,9 +84,9 @@ For details related to installation and environment setups, kindly refer to [INS
 
 | [**nuScenes**](https://www.nuscenes.org/nuscenes) | [**SemanticKITTI**](http://semantic-kitti.org/) | [**Waymo Open**](https://waymo.com/open) | [**SemanticSTF**](https://github.com/xiaoaoran/SemanticSTF) | [**SemanticPOSS**](http://www.poss.pku.edu.cn/semanticposs.html) |
 | :-: | :-: | :-: | :-: | :-: |
-| <img width="115" src="docs/figs/nuscenes.png"> | <img width="115" src="docs/figs/semantickitti.png"> | <img width="115" src="docs/figs/waymo-open.png"> | <img width="115" src="docs/figs/semanticposs.png"> | <img width="115" src="docs/figs/semanticstf.png"> |
+| <img width="125" src="docs/figs/nuscenes.png"> | <img width="125" src="docs/figs/semantickitti.png"> | <img width="125" src="docs/figs/waymo-open.png"> | <img width="125" src="docs/figs/semanticposs.png"> | <img width="125" src="docs/figs/semanticstf.png"> |
 | [**ScribbleKITTI**](https://github.com/ouenal/scribblekitti) | [**Synth4D**](https://github.com/saltoricristiano/gipso-sfouda) | [**S3DIS**](http://buildingparser.stanford.edu/dataset.html) | [**nuScenes-C**](https://github.com/ldkong1205/Robo3D) | [**SemanticKITTI-C**](https://github.com/ldkong1205/Robo3D) |
-| <img width="115" src="docs/figs/scribblekitti.png"> | <img width="115" src="docs/figs/synth4d.png"> | <img width="115" src="docs/figs/s3dis.png"> | <img width="115" src="docs/figs/nuscenes-c.png"> | <img width="115" src="docs/figs/semantickitti-c.png"> |
+| <img width="125" src="docs/figs/scribblekitti.png"> | <img width="125" src="docs/figs/synth4d.png"> | <img width="125" src="docs/figs/s3dis.png"> | <img width="125" src="docs/figs/nuscenes-c.png"> | <img width="125" src="docs/figs/semantickitti-c.png"> |
 
 Kindly refer to [DATA_PREPARE.md](docs/document/DATA_PREPARE.md) for the details to prepare these datasets.
 
@@ -167,7 +167,7 @@ To learn more usage about this codebase, kindly refer to [GET_STARTED.md](docs/G
 </details>
 
 <details open>
-<summary>&nbsp<b>3D Convolution Backend</b></summary>
+<summary>&nbsp<b>SparseConv Backend</b></summary>
 
 > - [x] **[MinkowskiEngine](https://arxiv.org/abs/1904.08755), CVPR 2019.** <sup>[**`[Code]`**](https://github.com/NVIDIA/MinkowskiEngine)</sup>
 > - [x] **[SpConv](https://github.com/traveller59/spconv), arXiv 2022.** <sup>[**`[Code]`**](https://github.com/traveller59/spconv)</sup>
