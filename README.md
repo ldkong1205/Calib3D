@@ -52,8 +52,8 @@
 
 `Calib3D` is a comprehensive benchmark targeted at probing the uncertainties of 3D scene understanding models in real-world conditions. It encompasses a systematic study of state-of-the-art models across diverse 3D datasets, laying a solid foundation for the future development of reliable 3D scene understanding systems.
 
-- :cactus: **Aleatoric Uncertainty in 3D:** We examine how intrinsic factors, such as sensor measurement noises and point cloud density variations, contribute to data uncertainty in 3D scene understanding. Such uncertainty cannot be reduced even with more data or improved models, necessitating efforts that effectively interpret and quantify this inherent variability.
-- :rainbow: **Epistemic Uncertainty in 3D:** Different from the rather unified network structures in 2D, 3D scene understanding models shed a wider array of structures due to the complex nature of 3D data processing. Our investigation extends to the model uncertainty associated with the diverse 3D architectures, highlighting the importance of addressing knowledge gaps in model training and data representation.
+- :construction: **Aleatoric Uncertainty in 3D:** We examine how intrinsic factors, such as sensor measurement noises and point cloud density variations, contribute to data uncertainty in 3D scene understanding. Such uncertainty cannot be reduced even with more data or improved models, necessitating efforts that effectively interpret and quantify this inherent variability.
+- :bus: **Epistemic Uncertainty in 3D:** Different from the rather unified network structures in 2D, 3D scene understanding models shed a wider array of structures due to the complex nature of 3D data processing. Our investigation extends to the model uncertainty associated with the diverse 3D architectures, highlighting the importance of addressing knowledge gaps in model training and data representation.
 
 
 ### Motivation
@@ -213,6 +213,10 @@ To learn more usage about this codebase, kindly refer to [GET_STARTED.md](docs/G
 | RangeViT       | Range | 2.52% | 2.50% | 2.57% | 2.56% | 2.46% | 2.38% |
 | RangeFormer    | Range | 2.44% | 2.40% | 2.41% | 2.44% | 2.27% | 2.15% |
 | FRNet          | Range | 2.27% | 2.24% | 2.22% | 2.28% | 2.22% | 2.17% |
+| PolarNet       | BEV   | 4.21% | 2.47% | 2.54% | 2.59% | 2.56% | 2.45% |
+| MinkUNet<sub>18</sub>  | Voxel | 2.45% | 2.34% | 2.34% | 2.42% | 2.29% | 2.23% |
+| MinkUNet<sub>34</sub>  | Voxel | 2.50% | 2.38% | 2.38% | 2.53% | 2.32% | 2.24% |
+| Cylinder3D     | Voxel | 3.19% | 2.58% | 2.62% | 2.58% | 2.39% | 2.29% |
 
 </details>
 
