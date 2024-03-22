@@ -49,8 +49,10 @@
 
 
 ## About
-`Calib3D` is 
 
+| <img src="docs/figs/teaser.png" align="center" width="100%"> |
+| :-: |
+| Well-calibrated 3D scene understanding models are anticipated to deliver *low uncertainties* when predictions are accurate and *high uncertainties* when predictions are inaccurate. |
 
 
 
