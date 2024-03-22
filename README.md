@@ -50,7 +50,12 @@
 
 ## About
 
-| <img src="docs/figs/teaser.png" align="center" width="100%"> |
+`Calib3D` is a comprehensive benchmark targeted at probing the uncertainties of 3D scene understanding models in real-world conditions. It encompasses a systematic study of state-of-the-art models across diverse 3D datasets, laying a solid foundation for the future research and development of reliable 3D scene understanding models.
+
+
+### Motivation
+
+| <img src="docs/figs/teaser.png" align="center" width="95%"> |
 | :-: |
 | Well-calibrated 3D scene understanding models are anticipated to deliver *low uncertainties* when predictions are accurate and *high uncertainties* when predictions are inaccurate. |
 
