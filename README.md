@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <img src="docs/figs/logo.png" align="center" width="22%">
+  <img src="docs/figs/logo.png" align="center" width="25%">
   
   <h3 align="center"><strong>Calib3D: Calibrating Model Preferences for Reliable 3D Scene Understanding</strong></h3>
 
@@ -217,6 +217,20 @@ To learn more usage about this codebase, kindly refer to [GET_STARTED.md](docs/G
 | MinkUNet<sub>18</sub>  | Voxel | 2.45% | 2.34% | 2.34% | 2.42% | 2.29% | 2.23% |
 | MinkUNet<sub>34</sub>  | Voxel | 2.50% | 2.38% | 2.38% | 2.53% | 2.32% | 2.24% |
 | Cylinder3D     | Voxel | 3.19% | 2.58% | 2.62% | 2.58% | 2.39% | 2.29% |
+| SpUNet<sub>18</sub>    | Voxel | 2.58% | 2.41% | 2.46% | 2.59% | 2.36% | 2.25% |
+| SpUNet<sub>34</sub>    | Voxel | 2.60% | 2.52% | 2.47% | 2.66% | 2.41% | 2.29% |
+| RPVNet        | Fusion | 2.81% | 2.70% | 2.73% | 2.79% | 2.68% | 2.60% |
+| 2DPASS        | Fusion | 2.74% | 2.53% | 2.51% | 2.51% | 2.62% | 2.46% |
+| SPVCNN<sub>18</sub>   | Fusion | 2.57% | 2.44% | 2.49% | 2.54% | 2.40% | 2.31% |
+| SPVCNN<sub>34</sub>   | Fusion | 2.61% | 2.49% | 2.54% | 2.61% | 2.37% | 2.28% |
+| CPGNet        | Fusion | 3.33% | 3.11% | 3.17% | 3.15% | 3.07% | 2.98% |
+| GFNet         | Fusion | 2.88% | 2.71% | 2.70% | 2.73% | 2.55% | 2.41% |
+| UniSeg        | Fusion | 2.76% | 2.61% | 2.63% | 2.65% | 2.45% | 2.37% |
+| KPConv        | Point  | 3.37% | 3.27% | 3.34% | 3.32% | 3.28% | 3.20% |
+| PIDS<sub>1.25x</sub> | Point | 3.46% | 3.40% | 3.43% | 3.41% | 3.37% | 3.28% |
+| PIDS<sub>2.0x</sub>  | Point | 3.53% | 3.47% | 3.49% | 3.51% | 3.34% | 3.27% |
+| PTv2          | Point  | 2.42% | 2.34% | 2.46% | 2.55% | 2.48% | 2.19% |
+| WaffleIron    | Point  | 4.01% | 2.65% | 3.06% | 2.59% | 2.54% | 2.46% |
 
 </details>
 
