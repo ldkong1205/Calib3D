@@ -244,10 +244,9 @@ If you find this work helpful for your research, please kindly consider citing o
 
 ## License
 
-> <img src="https://www.apache.org/img/asf-estd-1999-logo.jpg" width="24%"/><br>
-> This work is under the <a rel="license" href="https://www.apache.org/licenses/LICENSE-2.0">Apache License Version 2.0</a>, while some specific operations in this codebase might be with other licenses.
+> <img src="https://www.apache.org/img/asf-estd-1999-logo.jpg" width="22%"/><br>
 
-Kindly refer to [LICENSE.md](docs/LICENSE.md) for a more careful check, if you are using our code for commercial matters.
+This work is under the <a rel="license" href="https://www.apache.org/licenses/LICENSE-2.0">Apache License Version 2.0</a>, while some specific implementations in this codebase might be with other licenses. Kindly refer to [LICENSE.md](docs/LICENSE.md) for a more careful check, if you are using our code for commercial matters.
 
 
 
@@ -255,12 +254,12 @@ Kindly refer to [LICENSE.md](docs/LICENSE.md) for a more careful check, if you a
 
 This work is developed based on the [MMDetection3D](https://github.com/open-mmlab/mmdetection3d) codebase.
 
-> <img src="https://github.com/open-mmlab/mmdetection3d/blob/main/resources/mmdet3d-logo.png" width="30%"/><br>
+> <img src="https://github.com/open-mmlab/mmdetection3d/blob/main/resources/mmdet3d-logo.png" width="31%"/><br>
 > MMDetection3D is an open-source toolbox based on PyTorch, towards the next-generation platform for general 3D perception. It is a part of the OpenMMLab project developed by MMLab.
 
 Part of the benchmarked models are from the [OpenPCSeg](https://github.com/PJLab-ADG/OpenPCSeg) and [Pointcept](https://github.com/Pointcept/Pointcept) codebases.
 
-We acknowledge the use of the following public resources, during the course of this work: 
+We acknowledge the use of the following public resources, during the course of this work: <sup>1</sup>[nuScenes](https://www.nuscenes.org/nuscenes), <sup>2</sup>[SemanticKITTI](http://semantic-kitti.org/), <sup>3</sup>[Waymo Open](https://waymo.com/open), <sup>4</sup>[SemanticPOSS](http://www.poss.pku.edu.cn/semanticposs.html), <sup>5</sup>[Synth4D](https://github.com/saltoricristiano/gipso-sfouda), <sup>6</sup>[SemanticSTF](https://github.com/xiaoaoran/SemanticSTF), <sup>7</sup>[ScribbleKITTI](https://github.com/ouenal/scribblekitti), <sup>8</sup>[S3DIS](http://buildingparser.stanford.edu/dataset.html), <sup>9</sup>[Robo3D](https://github.com/ldkong1205/Robo3D), <sup>10</sup>[lidar-bonnetal](https://github.com/PRBonn/lidar-bonnetal), <sup>11</sup>[MinkowskiEngine](https://github.com/NVIDIA/MinkowskiEngine), <sup>12</sup>[SPConv](https://github.com/traveller59/spconv), <sup>13</sup>[TorchSparse](https://github.com/mit-han-lab/torchsparse), <sup>14</sup>[WaffleIron](https://github.com/valeoai/WaffleIron), <sup>15</sup>[PolarMix](https://github.com/xiaoaoran/polarmix), <sup>16</sup>[LaserMix](https://github.com/ldkong1205/LaserMix), and <sup>17</sup>[FRNet](https://github.com/Xiangxu-0103/FRNet).
 
 We thank the exceptional contributions from the above open-source repositories! :heart:
 
