@@ -2,11 +2,9 @@
 
 
 <p align="center">
-  <img src="docs/figs/logo.png" align="center" width="22.5%">
+  <img src="docs/figs/logo.png" align="center" width="22%">
   
-  <h2 align="center"><strong>Calib3D: Calibrating Model Preferences for Reliable 3D Scene Understanding</strong></h2>
-  
-  <br />
+  <h3 align="center"><strong>Calib3D: Calibrating Model Preferences for Reliable 3D Scene Understanding</strong></h3>
 
   <p align="center">
       <a href="https://ldkong.com/" target='_blank'>Lingdong Kong</a><sup>1,2,*</sup>&nbsp;&nbsp;&nbsp;
