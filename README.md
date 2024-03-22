@@ -5,6 +5,8 @@
   <img src="docs/figs/logo.png" align="center" width="22.5%">
   
   <h2 align="center"><strong>Calib3D: Calibrating Model Preferences for Reliable 3D Scene Understanding</strong></h2>
+  
+  <br />
 
   <p align="center">
       <a href="https://ldkong.com/" target='_blank'>Lingdong Kong</a><sup>1,2,*</sup>&nbsp;&nbsp;&nbsp;
@@ -15,7 +17,7 @@
       <a href="https://scholar.google.com/citations?user=lSDISOcAAAAJ" target='_blank'>Liang Pan</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
       <a href="https://scholar.google.com/citations?user=eGD0b7IAAAAJ" target='_blank'>Kai Chen</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
       <a href="https://liuziwei7.github.io/" target='_blank'>Ziwei Liu</a><sup>5</sup>
-    <br>
+  <br />
   <sup>1</sup>Shanghai AI Laboratory&nbsp;&nbsp;&nbsp;
   <sup>2</sup>National University of Singapore&nbsp;&nbsp;&nbsp;
   <sup>3</sup>Nanjing University of Aeronautics and Astronautics&nbsp;&nbsp;&nbsp;
