@@ -201,8 +201,20 @@ To learn more usage about this codebase, kindly refer to [GET_STARTED.md](docs/G
 
 ### In-Domain 3D Uncertainty
 
-To be added.
+<details open>
+<summary>&nbsp<b>nuScenes</b></summary>
 
+| Method         | Modal | UnCal | TempS | LogiS | DiriS | MetaC | DeptS |
+|----------------|-------|-------|-------|-------|-------|-------|-------|
+| RangeNet++     | Range | 4.57% | 2.74% | 2.79% | 2.73% | 2.78% | 2.61% |
+| SalsaNext      | Range | 3.27% | 2.59% | 2.58% | 2.57% | 2.52% | 2.42% |
+| FIDNet         | Range | 4.89% | 3.35% | 2.89% | 2.61% | 4.55% | 4.33% |
+| CENet          | Range | 4.44% | 2.47% | 2.53% | 2.58% | 2.70% | 2.44% |
+| RangeViT       | Range | 2.52% | 2.50% | 2.57% | 2.56% | 2.46% | 2.38% |
+| RangeFormer    | Range | 2.44% | 2.40% | 2.41% | 2.44% | 2.27% | 2.15% |
+| FRNet          | Range | 2.27% | 2.24% | 2.22% | 2.28% | 2.22% | 2.17% |
+
+</details>
 
 ### Domain-Shift 3D Uncertainty
 
