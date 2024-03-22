@@ -231,14 +231,12 @@ If you find this work helpful for your research, please kindly consider citing o
     year = {2024},
 }
 ```
-
 ```bibtex
-@inproceedings{kong2023robo3d,
-    author = {Lingdong Kong and Youquan Liu and Xin Li and Runnan Chen and Wenwei Zhang and Jiawei Ren and Liang Pan and Kai Chen and Ziwei Liu},
-    title = {Robo3D: Towards Robust and Reliable 3D Perception against Corruptions},
-    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
-    pages = {19994--20006},
-    year = {2023},
+@misc{mmdet3d,
+    title = {MMDetection3D: OpenMMLab Next-Generation Platform for General 3D Object Detection},
+    author = {MMDetection3D Contributors},
+    howpublished = {\url{https://github.com/open-mmlab/mmdetection3d}},
+    year = {2020}
 }
 ```
 
