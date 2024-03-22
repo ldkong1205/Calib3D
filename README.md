@@ -60,7 +60,7 @@
 
 | <img src="docs/figs/teaser.png" align="center" width="95%"> |
 | :-: |
-| Well-calibrated 3D scene understanding models are anticipated to deliver ***low uncertainties*** when predictions are ***accurate*** and ***high uncertainties*** when predictions are ***inaccurate***. The plots shown are the point-wise expected calibration error (ECE) rates. The colormap goes from *dark* to *light* denoting *low* and *high* error rates, respectively. |
+| Well-calibrated 3D scene understanding models are anticipated to deliver ***low uncertainties*** when predictions are ***accurate*** and ***high uncertainties*** when predictions are ***inaccurate***. Existing 3D models (UnCal) struggled to provide proper uncertainty estimates. The plots shown are the point-wise expected calibration error (ECE) rates. The colormap goes from *dark* to *light* denoting *low* and *high* error rates, respectively. |
 
 Visit our [project page](https://ldkong.com/Calib3D) to explore more examples. :blue_car:
 
@@ -190,6 +190,14 @@ To learn more usage about this codebase, kindly refer to [GET_STARTED.md](docs/G
 
 
 ## :triangular_ruler: Calib3D Benchmark
+
+### Reliability Diagram
+
+| <img src="docs/figs/diagram.png" align="center" width="99%"> |
+| :-: |
+| The reliability diagrams of visualized calibration gaps on the validation set of SemanticKITTI. UnCal, TempS, MetaC, and DeptS denote the uncalibrated, temperature, meta, and our depth-aware scaling calibrations, respectively. |
+
+
 
 ### In-Domain 3D Uncertainty
 
