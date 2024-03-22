@@ -4,7 +4,7 @@
 <p align="center">
   <img src="docs/figs/logo.png" align="center" width="22.5%">
   
-  <h3 align="center"><strong>Calib3D: Calibrating Model Preferences for Reliable 3D Scene Understanding</strong></h3>
+  <h2 align="center"><strong>Calib3D: Calibrating Model Preferences for Reliable 3D Scene Understanding</strong></h2>
 
   <p align="center">
       <a href="https://ldkong.com/" target='_blank'>Lingdong Kong</a><sup>1,2,*</sup>&nbsp;&nbsp;&nbsp;
@@ -195,17 +195,18 @@ To learn more usage about this codebase, kindly refer to [GET_STARTED.md](docs/G
 
 | <img src="docs/figs/diagram.png" align="center" width="99%"> |
 | :-: |
-| The reliability diagrams of visualized calibration gaps on the validation set of SemanticKITTI. UnCal, TempS, MetaC, and DeptS denote the uncalibrated, temperature, meta, and our depth-aware scaling calibrations, respectively. |
+| The reliability diagrams of visualized calibration gaps on the val set of SemanticKITTI. UnCal, TempS, MetaC, and DeptS denote the uncalibrated, temperature, meta, and our depth-aware scaling calibrations, respectively. |
 
 
 
 ### In-Domain 3D Uncertainty
 
+To be added.
+
 
 ### Domain-Shift 3D Uncertainty
 
-
-
+To be added.
 
 
 
