@@ -212,18 +212,18 @@ To learn more usage about this codebase, kindly refer to [GET_STARTED.md](docs/G
     <th colspan="6"><strong>SemanticKITTI</strong></th>
   </tr>
   <tr>
-    <td>UnCal</td>
-    <td>TempS</td>
-    <td>LogiS</td>
-    <td>DiriS</td>
-    <td>MetaC</td>
-    <td>DeptS</td>
-    <td>UnCal</td>
-    <td>TempS</td>
-    <td>LogiS</td>
-    <td>DiriS</td>
-    <td>MetaC</td>
-    <td>DeptS</td>
+    <td><strong>UnCal</strong></td>
+    <td><strong>TempS</strong></td>
+    <td><strong>LogiS</strong></td>
+    <td><strong>DiriS</strong></td>
+    <td><strong>MetaC</strong></td>
+    <td><strong>DeptS</strong></td>
+    <td><strong>UnCal</strong></td>
+    <td><strong>TempS</strong></td>
+    <td><strong>LogiS</strong></td>
+    <td><strong>DiriS</strong></td>
+    <td><strong>MetaC</strong></td>
+    <td><strong>DeptS</strong></td>
   </tr>
   <tr>
     <td>RangeNet++</td>
