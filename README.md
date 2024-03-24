@@ -353,6 +353,278 @@ To learn more usage about this codebase, kindly refer to [GET_STARTED.md](docs/G
     <td>2.67%</td>
     <td>2.59%</td>
 </tr>
+<tr>
+    <td>MinkUNet<sub>18</sub></td>
+    <td>Voxel</td>
+    <td>2.45%</td>
+    <td>2.34%</td>
+    <td>2.34%</td>
+    <td>2.42%</td>
+    <td>2.29%</td>
+    <td>2.23%</td>
+    <td>3.04%</td>
+    <td>3.01%</td>
+    <td>3.08%</td>
+    <td>3.30%</td>
+    <td>2.69%</td>
+    <td>2.63%</td>
+</tr>
+<tr>
+    <td>MinkUNet<sub>34</sub></td>
+    <td>Voxel</td>
+    <td>2.50%</td>
+    <td>2.38%</td>
+    <td>2.38%</td>
+    <td>2.53%</td>
+    <td>2.32%</td>
+    <td>2.24%</td>
+    <td>4.11%</td>
+    <td>3.59%</td>
+    <td>3.62%</td>
+    <td>3.63%</td>
+    <td>2.81%</td>
+    <td>2.73%</td>
+</tr>
+<tr>
+    <td>Cylinder3D</td>
+    <td>Voxel</td>
+    <td>3.19%</td>
+    <td>2.58%</td>
+    <td>2.62%</td>
+    <td>2.58%</td>
+    <td>2.39%</td>
+    <td>2.29%</td>
+    <td>5.49%</td>
+    <td>4.36%</td>
+    <td>4.48%</td>
+    <td>4.42%</td>
+    <td>3.40%</td>
+    <td>3.09%</td>
+</tr>
+<tr>
+    <td>SpUNet<sub>18</sub></td>
+    <td>Voxel</td>
+    <td>2.58%</td>
+    <td>2.41%</td>
+    <td>2.46%</td>
+    <td>2.59%</td>
+    <td>2.36%</td>
+    <td>2.25%</td>
+    <td>3.77%</td>
+    <td>3.47%</td>
+    <td>3.44%</td>
+    <td>3.61%</td>
+    <td>3.37%</td>
+    <td>3.21%</td>
+</tr>
+<tr>
+    <td>SpUNet<sub>34</sub></td>
+    <td>Voxel</td>
+    <td>2.60%</td>
+    <td>2.52%</td>
+    <td>2.47%</td>
+    <td>2.66%</td>
+    <td>2.41%</td>
+    <td>2.29%</td>
+    <td>4.41%</td>
+    <td>4.33%</td>
+    <td>4.34%</td>
+    <td>4.39%</td>
+    <td>4.20%</td>
+    <td>4.11%</td>
+</tr>
+<tr>
+    <td>RPVNet</td>
+    <td>Fusion</td>
+    <td>2.81%</td>
+    <td>2.70%</td>
+    <td>2.73%</td>
+    <td>2.79%</td>
+    <td>2.68%</td>
+    <td>2.60%</td>
+    <td>4.67%</td>
+    <td>4.12%</td>
+    <td>4.23%</td>
+    <td>4.26%</td>
+    <td>4.02%</td>
+    <td>3.75%</td>
+</tr>
+<tr>
+    <td>2DPASS</td>
+    <td>Fusion</td>
+    <td>2.74%</td>
+    <td>2.53%</td>
+    <td>2.51%</td>
+    <td>2.51%</td>
+    <td>2.62%</td>
+    <td>2.46%</td>
+    <td>2.32%</td>
+    <td>2.35%</td>
+    <td>2.45%</td>
+    <td>2.30%</td>
+    <td>2.73%</td>
+    <td>2.27%</td>
+</tr>
+<tr>
+    <td>SPVCNN<sub>18</sub></td>
+    <td>Fusion</td>
+    <td>2.57%</td>
+    <td>2.44%</td>
+    <td>2.49%</td>
+    <td>2.54%</td>
+    <td>2.40%</td>
+    <td>2.31%</td>
+    <td>3.46%</td>
+    <td>2.90%</td>
+    <td>3.07%</td>
+    <td>3.41%</td>
+    <td>2.36%</td>
+    <td>2.32%</td>
+</tr>
+<tr>
+    <td>SPVCNN<sub>34</sub></td>
+    <td>Fusion</td>
+    <td>2.61%</td>
+    <td>2.49%</td>
+    <td>2.54%</td>
+    <td>2.61%</td>
+    <td>2.37%</td>
+    <td>2.28%</td>
+    <td>3.61%</td>
+    <td>3.03%</td>
+    <td>3.07%</td>
+    <td>3.10%</td>
+    <td>2.99%</td>
+    <td>2.86%</td>
+</tr>
+<tr>
+    <td>CPGNet</td>
+    <td>Fusion</td>
+    <td>3.33%</td>
+    <td>3.11%</td>
+    <td>3.17%</td>
+    <td>3.15%</td>
+    <td>3.07%</td>
+    <td>2.98%</td>
+    <td>3.93%</td>
+    <td>3.81%</td>
+    <td>3.83%</td>
+    <td>3.78%</td>
+    <td>3.70%</td>
+    <td>3.59%</td>
+</tr>
+<tr>
+    <td>GFNet</td>
+    <td>Fusion</td>
+    <td>2.88%</td>
+    <td>2.71%</td>
+    <td>2.70%</td>
+    <td>2.73%</td>
+    <td>2.55%</td>
+    <td>2.41%</td>
+    <td>3.07%</td>
+    <td>3.01%</td>
+    <td>2.99%</td>
+    <td>3.05%</td>
+    <td>2.88%</td>
+    <td>2.73%</td>
+</tr>
+<tr>
+    <td>UniSeg</td>
+    <td>Fusion</td>
+    <td>2.76%</td>
+    <td>2.61%</td>
+    <td>2.63%</td>
+    <td>2.65%</td>
+    <td>2.45%</td>
+    <td>2.37%</td>
+    <td>3.93%</td>
+    <td>3.73%</td>
+    <td>3.78%</td>
+    <td>3.67%</td>
+    <td>3.51%</td>
+    <td>3.43%</td>
+</tr>
+<tr>
+    <td>KPConv</td>
+    <td>Point</td>
+    <td>3.37%</td>
+    <td>3.27%</td>
+    <td>3.34%</td>
+    <td>3.32%</td>
+    <td>3.28%</td>
+    <td>3.20%</td>
+    <td>4.97%</td>
+    <td>4.88%</td>
+    <td>4.90%</td>
+    <td>4.91%</td>
+    <td>4.78%</td>
+    <td>4.68%</td>
+</tr>
+<tr>
+    <td>PIDS<sub>1.25x</sub></td>
+    <td>Point</td>
+    <td>3.46%</td>
+    <td>3.40%</td>
+    <td>3.43%</td>
+    <td>3.41%</td>
+    <td>3.37%</td>
+    <td>3.28%</td>
+    <td>4.77%</td>
+    <td>4.65%</td>
+    <td>4.66%</td>
+    <td>4.64%</td>
+    <td>4.57%</td>
+    <td>4.49%</td>
+</tr>
+<tr>
+    <td>PIDS<sub>2.0x</sub></td>
+    <td>Point</td>
+    <td>3.53%</td>
+    <td>3.47%</td>
+    <td>3.49%</td>
+    <td>3.51%</td>
+    <td>3.34%</td>
+    <td>3.27%</td>
+    <td>4.91%</td>
+    <td>4.83%</td>
+    <td>4.72%</td>
+    <td>4.89%</td>
+    <td>4.66%</td>
+    <td>4.47%</td>
+</tr>
+<tr>
+    <td>PTv2</td>
+    <td>Point</td>
+    <td>2.42%</td>
+    <td>2.34%</td>
+    <td>2.46%</td>
+    <td>2.55%</td>
+    <td>2.48%</td>
+    <td>2.19%</td>
+    <td>4.95%</td>
+    <td>4.78%</td>
+    <td>4.71%</td>
+    <td>4.94%</td>
+    <td>4.69%</td>
+    <td>4.62%</td>
+</tr>
+<tr>
+    <td>WaffleIron</td>
+    <td>Point</td>
+    <td>4.01%</td>
+    <td>2.65%</td>
+    <td>3.06%</td>
+    <td>2.59%</td>
+    <td>2.54%</td>
+    <td>2.46%</td>
+    <td>3.91%</td>
+    <td>2.57%</td>
+    <td>2.86%</td>
+    <td>2.67%</td>
+    <td>2.58%</td>
+    <td>2.51%</td>
+</tr>
 
 </table>  
 
