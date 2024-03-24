@@ -876,10 +876,188 @@ To learn more usage about this codebase, kindly refer to [GET_STARTED.md](docs/G
 
 
 
-
 ### Domain-Shift 3D Uncertainty
 
-To be added.
+<details open>
+<summary>&nbsp<b>nuScenes-C & SemanticKITTI-C</b></summary>
+
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2">Type</th>
+      <th colspan="6">nuScenes-C</th>
+      <th colspan="6">SemanticKITTI-C</th>
+    </tr>
+    <tr>
+      <th>UnCal</th>
+      <th>TempS</th>
+      <th>LogiS</th>
+      <th>DiriS</th>
+      <th>MetaC</th>
+      <th>DeptS</th>
+      <th>UnCal</th>
+      <th>TempS</th>
+      <th>LogiS</th>
+      <th>DiriS</th>
+      <th>MetaC</th>
+      <th>DeptS</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Clean</td>
+      <td>2.45%</td>
+      <td>2.34%</td>
+      <td>2.34%</td>
+      <td>2.42%</td>
+      <td>2.29%</td>
+      <td>2.23%</td>
+      <td>3.04%</td>
+      <td>3.01%</td>
+      <td>3.08%</td>
+      <td>3.30%</td>
+      <td>2.69%</td>
+      <td>2.63%</td>
+    </tr>
+    <tr>
+      <td>Fog</td>
+      <td>5.52%</td>
+      <td>5.42%</td>
+      <td>5.49%</td>
+      <td>5.43%</td>
+      <td>4.77%</td>
+      <td>4.72%</td>
+      <td>12.66%</td>
+      <td>12.55%</td>
+      <td>12.67%</td>
+      <td>12.48%</td>
+      <td>11.08%</td>
+      <td>10.94%</td>
+    </tr>
+    <tr>
+      <td>Wet Ground</td>
+      <td>2.63%</td>
+      <td>2.54%</td>
+      <td>2.54%</td>
+      <td>2.64%</td>
+      <td>2.55%</td>
+      <td>2.52%</td>
+      <td>3.55%</td>
+      <td>3.46%</td>
+      <td>3.54%</td>
+      <td>3.72%</td>
+      <td>3.33%</td>
+      <td>3.28%</td>
+    </tr>
+    <tr>
+      <td>Snow</td>
+      <td>13.79%</td>
+      <td>13.32%</td>
+      <td>13.53%</td>
+      <td>13.59%</td>
+      <td>11.37%</td>
+      <td>11.31%</td>
+      <td>7.10%</td>
+      <td>6.96%</td>
+      <td>6.95%</td>
+      <td>7.26%</td>
+      <td>5.99%</td>
+      <td>5.63%</td>
+    </tr>
+    <tr>
+      <td>Motion Blur</td>
+      <td>9.54%</td>
+      <td>9.29%</td>
+      <td>9.37%</td>
+      <td>9.01%</td>
+      <td>8.32%</td>
+      <td>8.29%</td>
+      <td>11.31%</td>
+      <td>11.16%</td>
+      <td>11.24%</td>
+      <td>12.13%</td>
+      <td>9.00%</td>
+      <td>8.97%</td>
+    </tr>
+    <tr>
+      <td>Beam Missing</td>
+      <td>2.58%</td>
+      <td>2.48%</td>
+      <td>2.49%</td>
+      <td>2.57%</td>
+      <td>2.53%</td>
+      <td>2.47%</td>
+      <td>2.87%</td>
+      <td>2.83%</td>
+      <td>2.84%</td>
+      <td>2.98%</td>
+      <td>2.83%</td>
+      <td>2.79%</td>
+    </tr>
+    <tr>
+      <td>Crosstalk</td>
+      <td>13.64%</td>
+      <td>13.00%</td>
+      <td>12.97%</td>
+      <td>13.44%</td>
+      <td>9.98%</td>
+      <td>9.73%</td>
+      <td>4.93%</td>
+      <td>4.83%</td>
+      <td>4.86%</td>
+      <td>4.81%</td>
+      <td>3.54%</td>
+      <td>3.48%</td>
+    </tr>
+    <tr>
+      <td>Incomplete Echo</td>
+      <td>2.44%</td>
+      <td>2.33%</td>
+      <td>2.33%</td>
+      <td>2.42%</td>
+      <td>2.32%</td>
+      <td>2.21%</td>
+      <td>3.21%</td>
+      <td>3.19%</td>
+      <td>3.25%</td>
+      <td>3.48%</td>
+      <td>2.84%</td>
+      <td>2.19%</td>
+    </tr>
+    <tr>
+      <td>Cross Sensor</td>
+      <td>4.25%</td>
+      <td>4.15%</td>
+      <td>4.20%</td>
+      <td>4.28%</td>
+      <td>4.06%</td>
+      <td>3.20%</td>
+      <td>3.15%</td>
+      <td>3.13%</td>
+      <td>3.18%</td>
+      <td>3.43%</td>
+      <td>3.17%</td>
+      <td>2.96%</td>
+    </tr>
+    <tr>
+      <td>Average</td>
+      <td>6.78%</td>
+      <td>6.57%</td>
+      <td>6.62%</td>
+      <td>6.67%</td>
+      <td>5.74%</td>
+      <td>5.56%</td>
+      <td>6.10%</td>
+      <td>6.01%</td>
+      <td>6.07%</td>
+      <td>6.29%</td>
+      <td>5.22%</td>
+      <td>5.03%</td>
+    </tr>
+  </tbody>
+</table>
+
+</details>
 
 
 
