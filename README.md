@@ -202,35 +202,159 @@ To learn more usage about this codebase, kindly refer to [GET_STARTED.md](docs/G
 ### In-Domain 3D Uncertainty
 
 <details open>
-<summary>&nbsp<b>nuScenes</b></summary>
+<summary>&nbsp<b>nuScenes & SemanticKITTI</b></summary>
 
-| Method         | Modal | UnCal | TempS | LogiS | DiriS | MetaC | DeptS |
-|----------------|-------|-------|-------|-------|-------|-------|-------|
-| RangeNet++     | Range | 4.57% | 2.74% | 2.79% | 2.73% | 2.78% | 2.61% |
-| SalsaNext      | Range | 3.27% | 2.59% | 2.58% | 2.57% | 2.52% | 2.42% |
-| FIDNet         | Range | 4.89% | 3.35% | 2.89% | 2.61% | 4.55% | 4.33% |
-| CENet          | Range | 4.44% | 2.47% | 2.53% | 2.58% | 2.70% | 2.44% |
-| RangeViT       | Range | 2.52% | 2.50% | 2.57% | 2.56% | 2.46% | 2.38% |
-| RangeFormer    | Range | 2.44% | 2.40% | 2.41% | 2.44% | 2.27% | 2.15% |
-| FRNet          | Range | 2.27% | 2.24% | 2.22% | 2.28% | 2.22% | 2.17% |
-| PolarNet       | BEV   | 4.21% | 2.47% | 2.54% | 2.59% | 2.56% | 2.45% |
-| MinkUNet<sub>18</sub>  | Voxel | 2.45% | 2.34% | 2.34% | 2.42% | 2.29% | 2.23% |
-| MinkUNet<sub>34</sub>  | Voxel | 2.50% | 2.38% | 2.38% | 2.53% | 2.32% | 2.24% |
-| Cylinder3D     | Voxel | 3.19% | 2.58% | 2.62% | 2.58% | 2.39% | 2.29% |
-| SpUNet<sub>18</sub>    | Voxel | 2.58% | 2.41% | 2.46% | 2.59% | 2.36% | 2.25% |
-| SpUNet<sub>34</sub>    | Voxel | 2.60% | 2.52% | 2.47% | 2.66% | 2.41% | 2.29% |
-| RPVNet        | Fusion | 2.81% | 2.70% | 2.73% | 2.79% | 2.68% | 2.60% |
-| 2DPASS        | Fusion | 2.74% | 2.53% | 2.51% | 2.51% | 2.62% | 2.46% |
-| SPVCNN<sub>18</sub>   | Fusion | 2.57% | 2.44% | 2.49% | 2.54% | 2.40% | 2.31% |
-| SPVCNN<sub>34</sub>   | Fusion | 2.61% | 2.49% | 2.54% | 2.61% | 2.37% | 2.28% |
-| CPGNet        | Fusion | 3.33% | 3.11% | 3.17% | 3.15% | 3.07% | 2.98% |
-| GFNet         | Fusion | 2.88% | 2.71% | 2.70% | 2.73% | 2.55% | 2.41% |
-| UniSeg        | Fusion | 2.76% | 2.61% | 2.63% | 2.65% | 2.45% | 2.37% |
-| KPConv        | Point  | 3.37% | 3.27% | 3.34% | 3.32% | 3.28% | 3.20% |
-| PIDS<sub>1.25x</sub> | Point | 3.46% | 3.40% | 3.43% | 3.41% | 3.37% | 3.28% |
-| PIDS<sub>2.0x</sub>  | Point | 3.53% | 3.47% | 3.49% | 3.51% | 3.34% | 3.27% |
-| PTv2          | Point  | 2.42% | 2.34% | 2.46% | 2.55% | 2.48% | 2.19% |
-| WaffleIron    | Point  | 4.01% | 2.65% | 3.06% | 2.59% | 2.54% | 2.46% |
+<table>
+  <tr>
+    <th rowspan="2"><strong>Method</strong></th>
+    <th rowspan="2"><strong>Modal</strong></th>
+    <th colspan="6"><strong>nuScenes</strong></th>
+    <th colspan="6"><strong>SemanticKITTI</strong></th>
+  </tr>
+  <tr>
+    <td>UnCal</td>
+    <td>TempS</td>
+    <td>LogiS</td>
+    <td>DiriS</td>
+    <td>MetaC</td>
+    <td>DeptS</td>
+    <td>UnCal</td>
+    <td>TempS</td>
+    <td>LogiS</td>
+    <td>DiriS</td>
+    <td>MetaC</td>
+    <td>DeptS</td>
+  </tr>
+  <tr>
+    <td>RangeNet++</td>
+    <td>Range</span></td>
+    <td>4.57%</td>
+    <td>2.74%</td>
+    <td>2.79%</td>
+    <td>2.73%</td>
+    <td>2.78%</td>
+    <td>2.61%</td>
+    <td>4.01%</td>
+    <td>3.12%</td>
+    <td>3.16%</td>
+    <td>3.59%</td>
+    <td>2.38%</td>
+    <td>2.33%</td>
+  </tr>
+  <tr>
+    <td>SalsaNext</td>
+    <td>Range</td>
+    <td>3.27%</td>
+    <td>2.59%</td>
+    <td>2.58%</td>
+    <td>2.57%</td>
+    <td>2.52%</td>
+    <td>2.42%</td>
+    <td>5.37%</td>
+    <td>4.29%</td>
+    <td>4.31%</td>
+    <td>4.11%</td>
+    <td>3.35%</td>
+    <td>3.19%</td>
+</tr>
+<tr>
+    <td>FIDNet</td>
+    <td>Range</td>
+    <td>4.89%</td>
+    <td>3.35%</td>
+    <td>2.89%</td>
+    <td>2.61%</td>
+    <td>4.55%</td>
+    <td>4.33%</td>
+    <td>5.89%</td>
+    <td>4.04%</td>
+    <td>4.15%</td>
+    <td>3.82%</td>
+    <td>3.25%</td>
+    <td>3.14%</td>
+</tr>
+<tr>
+    <td>CENet</td>
+    <td>Range</td>
+    <td>4.44%</td>
+    <td>2.47%</td>
+    <td>2.53%</td>
+    <td>2.58%</td>
+    <td>2.70%</td>
+    <td>2.44%</td>
+    <td>5.95%</td>
+    <td>3.93%</td>
+    <td>3.79%</td>
+    <td>4.28%</td>
+    <td>3.31%</td>
+    <td>3.09%</td>
+</tr>
+<tr>
+    <td>RangeViT</td>
+    <td>Range</td>
+    <td>2.52%</td>
+    <td>2.50%</td>
+    <td>2.57%</td>
+    <td>2.56%</td>
+    <td>2.46%</td>
+    <td>2.38%</td>
+    <td>5.47%</td>
+    <td>3.16%</td>
+    <td>4.84%</td>
+    <td>8.80%</td>
+    <td>3.14%</td>
+    <td>3.07%</td>
+</tr>
+<tr>
+    <td>RangeFormer</td>
+    <td>Range</td>
+    <td>2.44%</td>
+    <td>2.40%</td>
+    <td>2.41%</td>
+    <td>2.44%</td>
+    <td>2.27%</td>
+    <td>2.15%</td>
+    <td>3.99%</td>
+    <td>3.67%</td>
+    <td>3.70%</td>
+    <td>3.69%</td>
+    <td>3.55%</td>
+    <td>3.30%</td>
+</tr>
+<tr>
+    <td>FRNet</td>
+    <td>Range</td>
+    <td>2.27%</td>
+    <td>2.24%</td>
+    <td>2.22%</td>
+    <td>2.28%</td>
+    <td>2.22%</td>
+    <td>2.17%</td>
+    <td>3.46%</td>
+    <td>3.53%</td>
+    <td>3.54%</td>
+    <td>3.49%</td>
+    <td>2.83%</td>
+    <td>2.75%</td>
+</tr>
+<tr>
+    <td>PolarNet</td>
+    <td>BEV</td>
+    <td>4.21%</td>
+    <td>2.47%</td>
+    <td>2.54%</td>
+    <td>2.59%</td>
+    <td>2.56%</td>
+    <td>2.45%</td>
+    <td>2.78%</td>
+    <td>3.54%</td>
+    <td>3.71%</td>
+    <td>3.70%</td>
+    <td>2.67%</td>
+    <td>2.59%</td>
+</tr>
+
+</table>  
 
 </details>
 
