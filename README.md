@@ -630,6 +630,253 @@ To learn more usage about this codebase, kindly refer to [GET_STARTED.md](docs/G
 
 </details>
 
+
+
+<details open>
+<summary>&nbsp<b>Other Datasets</b></summary>
+
+<table>
+<thead>
+  <tr>
+    <th>Dataset</th>
+    <th>Type</th>
+    <th>Method</th>
+    <th>Modal</th>
+    <th>UnCal</th>
+    <th>TempS</th>
+    <th>LogiS</th>
+    <th>DiriS</th>
+    <th>MetaC</th>
+    <th>DeptS</th>
+    <th>mIoU</th>
+  </tr>
+</thead>
+<tbody>
+  <!-- Waymo Open Dataset -->
+  <tr>
+    <td rowspan="3">Waymo Open</td>
+    <td rowspan="3">High-Res</td>
+    <td>PolarNet</td>
+    <td>BEV</td>
+    <td>3.92%</td>
+    <td>1.93%</td>
+    <td>1.90%</td>
+    <td>1.91%</td>
+    <td>2.39%</td>
+    <td>1.84%</td>
+    <td>58.33%</td>
+  </tr>
+  <tr>
+    <td>MinkUNet</td>
+    <td>Voxel</td>
+    <td>1.70%</td>
+    <td>1.70%</td>
+    <td>1.74%</td>
+    <td>1.76%</td>
+    <td>1.69%</td>
+    <td>1.59%</td>
+    <td>68.67%</td>
+  </tr>
+  <tr>
+    <td>SPVCNN</td>
+    <td>Fusion</td>
+    <td>1.81%</td>
+    <td>1.79%</td>
+    <td>1.80%</td>
+    <td>1.88%</td>
+    <td>1.74%</td>
+    <td>1.69%</td>
+    <td>68.86%</td>
+  </tr>
+  <!-- SemanticPOSS Dataset -->
+  <tr>
+    <td rowspan="3">SemanticPOSS</td>
+    <td rowspan="3">Dynamic</td>
+    <td>PolarNet</td>
+    <td>BEV</td>
+    <td>4.24%</td>
+    <td>8.09%</td>
+    <td>7.81%</td>
+    <td>8.30%</td>
+    <td>5.35%</td>
+    <td>4.11%</td>
+    <td>52.11%</td>
+  </tr>
+  <tr>
+    <td>MinkUNet</td>
+    <td>Voxel</td>
+    <td>7.22%</td>
+    <td>7.44%</td>
+    <td>7.36%</td>
+    <td>7.62%</td>
+    <td>5.66%</td>
+    <td>5.48%</td>
+    <td>56.32%</td>
+  </tr>
+  <tr>
+    <td>SPVCNN</td>
+    <td>Fusion</td>
+    <td>8.80%</td>
+    <td>6.53%</td>
+    <td>6.91%</td>
+    <td>7.41%</td>
+    <td>4.61%</td>
+    <td>3.98%</td>
+    <td>53.51%</td>
+  </tr>
+  <!-- SemanticSTF Dataset -->
+  <tr>
+    <td rowspan="3">SemanticSTF</td>
+    <td rowspan="3">Weather</td>
+    <td>PolarNet</td>
+    <td>BEV</td>
+    <td>5.76%</td>
+    <td>4.94%</td>
+    <td>4.49%</td>
+    <td>4.53%</td>
+    <td>4.17%</td>
+    <td>4.12%</td>
+    <td>51.26%</td>
+  </tr>
+  <tr>
+    <td>MinkUNet</td>
+    <td>Voxel</td>
+    <td>5.29%</td>
+    <td>5.21%</td>
+    <td>4.96%</td>
+    <td>5.10%</td>
+    <td>4.78%</td>
+    <td>4.72%</td>
+    <td>50.22%</td>
+  </tr>
+  <tr>
+    <td>SPVCNN</td>
+    <td>Fusion</td>
+    <td>5.85%</td>
+    <td>5.53%</td>
+    <td>5.16%</td>
+    <td>5.05%</td>
+    <td>5.12%</td>
+    <td>4.97%</td>
+    <td>51.73%</td>
+  </tr>
+  <!-- ScribbleKITTI Dataset -->
+  <tr>
+    <td rowspan="3">ScribbleKITTI</td>
+    <td rowspan="3">Scribble</td>
+    <td>PolarNet</td>
+    <td>BEV</td>
+    <td>4.65%</td>
+    <td>4.59%</td>
+    <td>4.56%</td>
+    <td>4.55%</td>
+    <td>3.25%</td>
+    <td>3.09%</td>
+    <td>55.22%</td>
+  </tr>
+  <tr>
+    <td>MinkUNet</td>
+    <td>Voxel</td>
+    <td>7.97%</td>
+    <td>7.13%</td>
+    <td>7.29%</td>
+    <td>7.21%</td>
+    <td>5.93%</td>
+    <td>5.74%</td>
+    <td>59.87%</td>
+  </tr>
+  <tr>
+    <td>SPVCNN</td>
+    <td>Fusion</td>
+    <td>7.04%</td>
+    <td>6.63%</td>
+    <td>6.93%</td>
+    <td>6.66%</td>
+    <td>5.34%</td>
+    <td>5.13%</td>
+    <td>60.22%</td>
+  </tr>
+  <!-- Synth4D Dataset -->
+  <tr>
+    <td rowspan="3">Synth4D</td>
+    <td rowspan="3">Synthetic</td>
+    <td>PolarNet</td>
+    <td>BEV</td>
+    <td>1.68%</td>
+    <td>0.93%</td>
+    <td>0.75%</td>
+    <td>0.72%</td>
+    <td>1.54%</td>
+    <td>0.69%</td>
+    <td>85.63%</td>
+  </tr>
+  <tr>
+    <td>MinkUNet</td>
+    <td>Voxel</td>
+    <td>2.43%</td>
+    <td>2.72%</td>
+    <td>2.43%</td>
+    <td>2.05%</td>
+    <td>4.01%</td>
+    <td>2.39%</td>
+    <td>69.11%</td>
+  </tr>
+  <tr>
+    <td>SPVCNN</td>
+    <td>Fusion</td>
+    <td>2.21%</td>
+    <td>2.35%</td>
+    <td>1.86%</td>
+    <td>1.70%</td>
+    <td>3.44%</td>
+    <td>1.67%</td>
+    <td>69.68%</td>
+  </tr>
+  <!-- S3DIS Dataset -->
+  <tr>
+    <td rowspan="3">S3DIS</td>
+    <td rowspan="3">Indoor</td>
+    <td>PointNet++</td>
+    <td>Point</td>
+    <td>9.13%</td>
+    <td>8.36%</td>
+    <td>7.83%</td>
+    <td>8.20%</td>
+    <td>6.93%</td>
+    <td>6.79%</td>
+    <td>56.96%</td>
+  </tr>
+  <tr>
+    <td>DGCNN</td>
+    <td>Point</td>
+    <td>6.00%</td>
+    <td>6.23%</td>
+    <td>6.35%</td>
+    <td>7.12%</td>
+    <td>5.47%</td>
+    <td>5.39%</td>
+    <td>54.50%</td>
+  </tr>
+  <tr>
+    <td>PAConv</td>
+    <td>Point</td>
+    <td>8.38%</td>
+    <td>5.87%</td>
+    <td>6.03%</td>
+    <td>5.98%</td>
+    <td>4.67%</td>
+    <td>4.57%</td>
+    <td>66.60%</td>
+  </tr>
+    
+</tbody>
+</table>
+
+</details>
+
+
+
+
 ### Domain-Shift 3D Uncertainty
 
 To be added.
