@@ -18,7 +18,7 @@ def readme():
     return content
 
 
-version_file = 'mmdet3d/version.py'
+version_file = 'calib3d/version.py'
 
 
 def get_version():
@@ -192,7 +192,7 @@ def add_mim_extention():
 if __name__ == '__main__':
     add_mim_extention()
     setup(
-        name='mmdet3d',
+        name='calib3d',
         version=get_version(),
         description=("OpenMMLab's next-generation platform"
                      'for general 3D object detection.'),
