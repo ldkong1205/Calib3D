@@ -58,7 +58,7 @@
 
 ### Motivation
 
-| <img src="docs/figs/teaser.png" align="center" width="95%"> |
+| <img src="docs/figs/teaser.png" align="center" width="98%"> |
 | :-: |
 | Well-calibrated 3D scene understanding models are anticipated to deliver ***low uncertainties*** when predictions are ***accurate*** and ***high uncertainties*** when predictions are ***inaccurate***. Existing 3D models (UnCal) struggled to provide proper uncertainty estimates. The plots shown are the point-wise expected calibration error (ECE) rates. The colormap goes from *dark* to *light* denoting *low* and *high* error rates, respectively. |
 
@@ -1058,6 +1058,13 @@ To learn more usage about this codebase, kindly refer to [GET_STARTED.md](docs/G
 </table>
 
 </details>
+
+
+### Model Configurations
+
+| <img src="docs/figs/miou.png" align="center" width="260"> | <img src="docs/figs/backend.png" align="center" width="260"> | <img src="docs/figs/modality.png" align="center" width="260"> |
+| :-: | :-: | :-: |
+| ECE vs. mIoU | SparseConv Backend | LiDAR Modality |
 
 
 
