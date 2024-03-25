@@ -10,9 +10,9 @@ from mmengine.logging import print_log
 from mmengine.structures import InstanceData
 from torch import Tensor, nn
 
-from mmdet3d.models.utils import draw_heatmap_gaussian, gaussian_radius
-from mmdet3d.registry import MODELS
-from mmdet3d.structures import center_to_corner_box2d
+from calib3d.models.utils import draw_heatmap_gaussian, gaussian_radius
+from calib3d.registry import MODELS
+from calib3d.structures import center_to_corner_box2d
 from .transformer import DeformableTransformerDecoder
 
 

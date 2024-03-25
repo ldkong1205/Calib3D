@@ -13,11 +13,11 @@ from mmdet.models.utils import multi_apply
 from mmengine.structures import InstanceData
 from torch import nn
 
-from mmdet3d.models import circle_nms, draw_heatmap_gaussian, gaussian_radius
-from mmdet3d.models.dense_heads.centerpoint_head import SeparateHead
-from mmdet3d.models.layers import nms_bev
-from mmdet3d.registry import MODELS
-from mmdet3d.structures import xywhr2xyxyr
+from calib3d.models import circle_nms, draw_heatmap_gaussian, gaussian_radius
+from calib3d.models.dense_heads.centerpoint_head import SeparateHead
+from calib3d.models.layers import nms_bev
+from calib3d.registry import MODELS
+from calib3d.structures import xywhr2xyxyr
 
 
 def clip_sigmoid(x, eps=1e-4):

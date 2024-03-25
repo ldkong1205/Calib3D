@@ -3,8 +3,8 @@ from argparse import ArgumentParser
 
 import mmcv
 
-from mmdet3d.apis import inference_multi_modality_detector, init_model
-from mmdet3d.registry import VISUALIZERS
+from calib3d.apis import inference_multi_modality_detector, init_model
+from calib3d.registry import VISUALIZERS
 
 
 def parse_args():

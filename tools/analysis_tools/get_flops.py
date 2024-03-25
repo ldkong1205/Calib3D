@@ -5,7 +5,7 @@ import torch
 from mmengine import Config, DictAction
 from mmengine.registry import init_default_scope
 
-from mmdet3d.registry import MODELS
+from calib3d.registry import MODELS
 
 try:
     from mmcv.cnn import get_model_complexity_info

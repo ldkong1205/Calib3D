@@ -7,7 +7,7 @@ from mmcv.ops.multi_scale_deform_attn import (
     MultiScaleDeformableAttnFunction, multi_scale_deformable_attn_pytorch)
 from mmengine.model import BaseModule, constant_init, xavier_init
 
-from mmdet3d.registry import MODELS
+from calib3d.registry import MODELS
 
 
 @MODELS.register_module()

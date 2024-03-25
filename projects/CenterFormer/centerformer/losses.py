@@ -3,7 +3,7 @@
 import torch
 from torch import nn
 
-from mmdet3d.registry import MODELS
+from calib3d.registry import MODELS
 
 
 def _gather_feat(feat, ind, mask=None):

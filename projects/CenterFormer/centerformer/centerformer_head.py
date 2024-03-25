@@ -17,8 +17,8 @@ from mmengine.model import kaiming_init
 from mmengine.structures import InstanceData
 from torch import nn
 
-from mmdet3d.models.layers import circle_nms, nms_bev
-from mmdet3d.registry import MODELS
+from calib3d.models.layers import circle_nms, nms_bev
+from calib3d.registry import MODELS
 from .bbox_ops import nms_iou3d
 from .losses import FastFocalLoss
 

@@ -5,7 +5,7 @@ import numpy as np
 import torch
 from mmcv.transforms import BaseTransform
 
-from mmdet3d.registry import TRANSFORMS
+from calib3d.registry import TRANSFORMS
 
 
 @TRANSFORMS.register_module()

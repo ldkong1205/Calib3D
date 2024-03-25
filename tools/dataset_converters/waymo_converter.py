@@ -26,8 +26,8 @@ from waymo_open_dataset.utils import range_image_utils, transform_utils
 from waymo_open_dataset.utils.frame_utils import \
     parse_range_image_and_camera_projection
 
-from mmdet3d.datasets.convert_utils import post_process_coords
-from mmdet3d.structures import Box3DMode, LiDARInstance3DBoxes, points_cam2img
+from calib3d.datasets.convert_utils import post_process_coords
+from calib3d.structures import Box3DMode, LiDARInstance3DBoxes, points_cam2img
 
 
 class Waymo2KITTI(object):

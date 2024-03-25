@@ -4,7 +4,7 @@ import argparse
 import mmengine
 from mmengine import Config
 
-from mmdet3d.registry import DATASETS
+from calib3d.registry import DATASETS
 
 
 def parse_args():

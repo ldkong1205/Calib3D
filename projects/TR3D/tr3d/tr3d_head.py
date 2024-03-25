@@ -16,10 +16,10 @@ from mmengine.model import bias_init_with_prob
 from mmengine.structures import InstanceData
 from torch import Tensor, nn
 
-from mmdet3d.models import Base3DDenseHead
-from mmdet3d.registry import MODELS
-from mmdet3d.structures import BaseInstance3DBoxes
-from mmdet3d.utils import InstanceList, OptInstanceList
+from calib3d.models import Base3DDenseHead
+from calib3d.registry import MODELS
+from calib3d.structures import BaseInstance3DBoxes
+from calib3d.utils import InstanceList, OptInstanceList
 
 
 @MODELS.register_module()

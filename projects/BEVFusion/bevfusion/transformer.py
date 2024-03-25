@@ -2,7 +2,7 @@
 from mmdet.models import DetrTransformerDecoderLayer
 from torch import Tensor, nn
 
-from mmdet3d.registry import MODELS
+from calib3d.registry import MODELS
 
 
 class PositionEncodingLearned(nn.Module):

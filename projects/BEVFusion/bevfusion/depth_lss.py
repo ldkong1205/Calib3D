@@ -4,7 +4,7 @@ from typing import Tuple
 import torch
 from torch import nn
 
-from mmdet3d.registry import MODELS
+from calib3d.registry import MODELS
 from .ops import bev_pool
 
 

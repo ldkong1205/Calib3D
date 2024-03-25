@@ -3,7 +3,7 @@ from typing import List
 import numpy as np
 from mmcv import BaseTransform
 
-from mmdet3d.registry import TRANSFORMS
+from calib3d.registry import TRANSFORMS
 
 
 @TRANSFORMS.register_module()

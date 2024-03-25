@@ -8,8 +8,8 @@ except ImportError:
     ME = SparseTensor = None
     pass
 
-from mmdet3d.models.backbones import MinkResNet
-from mmdet3d.registry import MODELS
+from calib3d.models.backbones import MinkResNet
+from calib3d.registry import MODELS
 
 
 @MODELS.register_module()

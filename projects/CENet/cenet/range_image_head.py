@@ -4,10 +4,10 @@ from typing import List, Tuple
 import torch
 from torch import Tensor, nn
 
-from mmdet3d.models import Base3DDecodeHead
-from mmdet3d.registry import MODELS
-from mmdet3d.structures.det3d_data_sample import SampleList
-from mmdet3d.utils import ConfigType, OptConfigType
+from calib3d.models import Base3DDecodeHead
+from calib3d.registry import MODELS
+from calib3d.structures.det3d_data_sample import SampleList
+from calib3d.utils import ConfigType, OptConfigType
 
 
 @MODELS.register_module()

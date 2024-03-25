@@ -10,12 +10,12 @@ from mmengine.structures import InstanceData
 from torch import Tensor
 from torch.nn.init import constant_
 
-from mmdet3d.models import CenterHead
-from mmdet3d.models.layers import circle_nms, nms_bev
-from mmdet3d.models.utils import (clip_sigmoid, draw_heatmap_gaussian,
+from calib3d.models import CenterHead
+from calib3d.models.layers import circle_nms, nms_bev
+from calib3d.models.utils import (clip_sigmoid, draw_heatmap_gaussian,
                                   gaussian_radius)
-from mmdet3d.registry import MODELS
-from mmdet3d.structures import Det3DDataSample, xywhr2xyxyr
+from calib3d.registry import MODELS
+from calib3d.structures import Det3DDataSample, xywhr2xyxyr
 
 
 @MODELS.register_module()

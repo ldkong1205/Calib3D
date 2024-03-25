@@ -6,8 +6,8 @@ import torch
 from mmcv.transforms import BaseTransform
 from PIL import Image
 
-from mmdet3d.datasets import GlobalRotScaleTrans
-from mmdet3d.registry import TRANSFORMS
+from calib3d.datasets import GlobalRotScaleTrans
+from calib3d.registry import TRANSFORMS
 
 
 @TRANSFORMS.register_module()

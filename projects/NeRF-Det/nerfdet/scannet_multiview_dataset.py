@@ -5,9 +5,9 @@ from typing import Callable, List, Optional, Union
 
 import numpy as np
 
-from mmdet3d.datasets import Det3DDataset
-from mmdet3d.registry import DATASETS
-from mmdet3d.structures import DepthInstance3DBoxes
+from calib3d.datasets import Det3DDataset
+from calib3d.registry import DATASETS
+from calib3d.structures import DepthInstance3DBoxes
 
 
 @DATASETS.register_module()

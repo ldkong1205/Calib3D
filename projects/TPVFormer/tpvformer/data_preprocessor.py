@@ -8,10 +8,10 @@ from PIL import Image
 from torch import Tensor
 from torch.nn import functional as F
 
-from mmdet3d.models import Det3DDataPreprocessor
-from mmdet3d.models.data_preprocessors.voxelize import dynamic_scatter_3d
-from mmdet3d.registry import MODELS
-from mmdet3d.structures.det3d_data_sample import SampleList
+from calib3d.models import Det3DDataPreprocessor
+from calib3d.models.data_preprocessors.voxelize import dynamic_scatter_3d
+from calib3d.registry import MODELS
+from calib3d.structures.det3d_data_sample import SampleList
 
 
 @MODELS.register_module()

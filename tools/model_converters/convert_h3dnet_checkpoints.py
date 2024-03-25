@@ -6,7 +6,7 @@ import torch
 from mmcv import Config
 from mmengine.runner import load_state_dict
 
-from mmdet3d.registry import MODELS
+from calib3d.registry import MODELS
 
 
 def parse_args():

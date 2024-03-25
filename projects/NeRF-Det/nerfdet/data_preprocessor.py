@@ -12,12 +12,12 @@ from mmengine.utils import is_seq_of
 from torch import Tensor
 from torch.nn import functional as F
 
-from mmdet3d.models.data_preprocessors.utils import multiview_img_stack_batch
-from mmdet3d.models.data_preprocessors.voxelize import (
+from calib3d.models.data_preprocessors.utils import multiview_img_stack_batch
+from calib3d.models.data_preprocessors.voxelize import (
     VoxelizationByGridShape, dynamic_scatter_3d)
-from mmdet3d.registry import MODELS
-from mmdet3d.structures.det3d_data_sample import SampleList
-from mmdet3d.utils import OptConfigType
+from calib3d.registry import MODELS
+from calib3d.structures.det3d_data_sample import SampleList
+from calib3d.utils import OptConfigType
 
 
 @MODELS.register_module()

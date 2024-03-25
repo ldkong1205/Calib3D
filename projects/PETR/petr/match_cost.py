@@ -1,7 +1,7 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 import torch
 
-from mmdet3d.registry import TASK_UTILS
+from calib3d.registry import TASK_UTILS
 
 
 def fp16_clamp(x, min=None, max=None):

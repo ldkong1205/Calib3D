@@ -141,7 +141,7 @@ parser.add_argument(
 args = parser.parse_args()
 
 if __name__ == '__main__':
-    from mmdet3d.utils import register_all_modules
+    from calib3d.utils import register_all_modules
     register_all_modules()
 
     scannet_data_prep(

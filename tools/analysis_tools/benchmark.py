@@ -8,7 +8,7 @@ from mmengine.device import get_device
 from mmengine.registry import init_default_scope
 from mmengine.runner import Runner, autocast, load_checkpoint
 
-from mmdet3d.registry import MODELS
+from calib3d.registry import MODELS
 from tools.misc.fuse_conv_bn import fuse_module
 
 

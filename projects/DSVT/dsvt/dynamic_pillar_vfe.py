@@ -4,7 +4,7 @@ import torch
 import torch.nn as nn
 import torch_scatter
 
-from mmdet3d.registry import MODELS
+from calib3d.registry import MODELS
 
 
 class PFNLayerV2(nn.Module):

@@ -10,7 +10,7 @@
 import torch
 from mmdet.models.task_modules import AssignResult, BaseAssigner
 
-from mmdet3d.registry import TASK_UTILS
+from calib3d.registry import TASK_UTILS
 from projects.PETR.petr.utils import normalize_bbox
 
 try:

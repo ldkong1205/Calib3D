@@ -3,9 +3,9 @@ from typing import Optional, Tuple, Union
 
 import numpy as np
 
-from mmdet3d.datasets import PointSample
-from mmdet3d.registry import TRANSFORMS
-from mmdet3d.structures.points import BasePoints
+from calib3d.datasets import PointSample
+from calib3d.registry import TRANSFORMS
+from calib3d.structures.points import BasePoints
 
 
 @TRANSFORMS.register_module()

@@ -11,9 +11,9 @@
 import torch
 from mmengine.structures import InstanceData
 
-from mmdet3d.models.detectors.mvx_two_stage import MVXTwoStageDetector
-from mmdet3d.registry import MODELS
-from mmdet3d.structures.ops import bbox3d2result
+from calib3d.models.detectors.mvx_two_stage import MVXTwoStageDetector
+from calib3d.registry import MODELS
+from calib3d.structures.ops import bbox3d2result
 from .grid_mask import GridMask
 
 

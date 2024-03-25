@@ -3,10 +3,10 @@ from typing import Dict, List, Optional
 import torch
 from torch import Tensor
 
-from mmdet3d.models.detectors.mvx_two_stage import MVXTwoStageDetector
-from mmdet3d.registry import MODELS
-from mmdet3d.structures import Det3DDataSample
-from mmdet3d.structures.bbox_3d.utils import get_lidar2img
+from calib3d.models.detectors.mvx_two_stage import MVXTwoStageDetector
+from calib3d.registry import MODELS
+from calib3d.structures import Det3DDataSample
+from calib3d.structures.bbox_3d.utils import get_lidar2img
 from .grid_mask import GridMask
 
 

@@ -4,7 +4,7 @@ from typing import Callable, List, Union
 
 from mmengine.dataset import BaseDataset
 
-from mmdet3d.registry import DATASETS
+from calib3d.registry import DATASETS
 
 
 @DATASETS.register_module()

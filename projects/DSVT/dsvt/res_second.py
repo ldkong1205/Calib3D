@@ -5,8 +5,8 @@ from mmengine.model import BaseModule
 from torch import Tensor
 from torch import nn as nn
 
-from mmdet3d.registry import MODELS
-from mmdet3d.utils import OptMultiConfig
+from calib3d.registry import MODELS
+from calib3d.utils import OptMultiConfig
 
 
 class BasicResBlock(nn.Module):

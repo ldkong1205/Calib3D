@@ -2,9 +2,9 @@ from typing import Optional, Union
 
 from torch import nn
 
-from mmdet3d.models import Base3DSegmentor
-from mmdet3d.registry import MODELS
-from mmdet3d.structures.det3d_data_sample import SampleList
+from calib3d.models import Base3DSegmentor
+from calib3d.registry import MODELS
+from calib3d.structures.det3d_data_sample import SampleList
 
 
 @MODELS.register_module()

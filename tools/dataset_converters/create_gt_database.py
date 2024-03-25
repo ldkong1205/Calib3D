@@ -11,8 +11,8 @@ from mmengine import print_log, track_iter_progress
 from pycocotools import mask as maskUtils
 from pycocotools.coco import COCO
 
-from mmdet3d.registry import DATASETS
-from mmdet3d.structures.ops import box_np_ops as box_np_ops
+from calib3d.registry import DATASETS
+from calib3d.structures.ops import box_np_ops as box_np_ops
 
 
 def _poly2mask(mask_ann, img_h, img_w):

@@ -5,10 +5,10 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-from mmdet3d.models.detectors import Base3DDetector
-from mmdet3d.registry import MODELS, TASK_UTILS
-from mmdet3d.structures.det3d_data_sample import SampleList
-from mmdet3d.utils import ConfigType, OptConfigType
+from calib3d.models.detectors import Base3DDetector
+from calib3d.registry import MODELS, TASK_UTILS
+from calib3d.structures.det3d_data_sample import SampleList
+from calib3d.utils import ConfigType, OptConfigType
 from .nerf_utils.nerf_mlp import VanillaNeRF
 from .nerf_utils.projection import Projector
 from .nerf_utils.render_ray import render_rays

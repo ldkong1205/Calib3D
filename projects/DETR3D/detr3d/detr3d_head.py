@@ -12,7 +12,7 @@ from mmengine.model import bias_init_with_prob
 from mmengine.structures import InstanceData
 from torch import Tensor
 
-from mmdet3d.registry import MODELS, TASK_UTILS
+from calib3d.registry import MODELS, TASK_UTILS
 from .util import normalize_bbox
 
 

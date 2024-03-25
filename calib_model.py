@@ -9,7 +9,7 @@ from mmengine import Config
 from mmengine.runner import Runner, load_checkpoint
 from torch import optim
 
-from mmdet3d.registry import MODELS
+from calib3d.registry import MODELS
 
 
 def parse_args():

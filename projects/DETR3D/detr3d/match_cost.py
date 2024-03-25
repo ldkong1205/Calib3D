@@ -3,7 +3,7 @@ from typing import Union
 import torch
 from torch import Tensor
 
-from mmdet3d.registry import TASK_UTILS
+from calib3d.registry import TASK_UTILS
 
 
 @TASK_UTILS.register_module()

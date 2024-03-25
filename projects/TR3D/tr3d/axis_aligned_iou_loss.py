@@ -6,9 +6,9 @@ from mmdet.models.losses.utils import weighted_loss
 from torch import Tensor
 from torch import nn as nn
 
-from mmdet3d.models import axis_aligned_iou_loss
-from mmdet3d.registry import MODELS
-from mmdet3d.structures import AxisAlignedBboxOverlaps3D
+from calib3d.models import axis_aligned_iou_loss
+from calib3d.registry import MODELS
+from calib3d.structures import AxisAlignedBboxOverlaps3D
 
 
 @weighted_loss

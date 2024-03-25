@@ -8,9 +8,9 @@ from mmcv import BaseTransform
 from mmengine.structures import InstanceData
 from numpy import dtype
 
-from mmdet3d.registry import TRANSFORMS
-from mmdet3d.structures import BaseInstance3DBoxes, PointData
-from mmdet3d.structures.points import BasePoints
+from calib3d.registry import TRANSFORMS
+from calib3d.structures import BaseInstance3DBoxes, PointData
+from calib3d.structures.points import BasePoints
 # from .det3d_data_sample import Det3DDataSample
 from .nerf_det3d_data_sample import NeRFDet3DDataSample
 

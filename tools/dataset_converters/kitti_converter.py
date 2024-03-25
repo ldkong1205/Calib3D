@@ -7,8 +7,8 @@ import mmengine
 import numpy as np
 from nuscenes.utils.geometry_utils import view_points
 
-from mmdet3d.structures import points_cam2img
-from mmdet3d.structures.ops import box_np_ops
+from calib3d.structures import points_cam2img
+from calib3d.structures.ops import box_np_ops
 from .kitti_data_utils import WaymoInfoGatherer, get_kitti_image_info
 from .nuscenes_converter import post_process_coords
 

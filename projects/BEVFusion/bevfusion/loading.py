@@ -6,8 +6,8 @@ import mmcv
 import numpy as np
 from mmengine.fileio import get
 
-from mmdet3d.datasets.transforms import LoadMultiViewImageFromFiles
-from mmdet3d.registry import TRANSFORMS
+from calib3d.datasets.transforms import LoadMultiViewImageFromFiles
+from calib3d.registry import TRANSFORMS
 
 
 @TRANSFORMS.register_module()

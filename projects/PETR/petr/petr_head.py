@@ -21,7 +21,7 @@ from mmdet.models.utils import multi_apply
 from mmengine.model.weight_init import bias_init_with_prob
 from mmengine.structures import InstanceData
 
-from mmdet3d.registry import MODELS, TASK_UTILS
+from calib3d.registry import MODELS, TASK_UTILS
 from projects.PETR.petr.utils import normalize_bbox
 
 

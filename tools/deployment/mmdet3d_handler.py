@@ -6,8 +6,8 @@ import numpy as np
 import torch
 from ts.torch_handler.base_handler import BaseHandler
 
-from mmdet3d.apis import inference_detector, init_model
-from mmdet3d.structures.points import get_points_type
+from calib3d.apis import inference_detector, init_model
+from calib3d.structures.points import get_points_type
 
 
 class MMdet3dHandler(BaseHandler):

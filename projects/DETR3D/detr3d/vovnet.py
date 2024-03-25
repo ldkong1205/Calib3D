@@ -7,7 +7,7 @@ import torch.nn.functional as F
 from mmengine.model import BaseModule
 from torch.nn.modules.batchnorm import _BatchNorm
 
-from mmdet3d.registry import MODELS
+from calib3d.registry import MODELS
 
 VoVNet19_slim_dw_eSE = {
     'stem': [64, 64, 64],

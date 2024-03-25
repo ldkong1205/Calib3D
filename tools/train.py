@@ -9,7 +9,7 @@ from mmengine.logging import print_log
 from mmengine.registry import RUNNERS
 from mmengine.runner import Runner
 
-from mmdet3d.utils import replace_ceph_backend
+from calib3d.utils import replace_ceph_backend
 
 
 def parse_args():

@@ -4,8 +4,8 @@ import torch
 from mmcv.transforms import BaseTransform
 from PIL import Image
 
-from mmdet3d.registry import TRANSFORMS
-from mmdet3d.structures.bbox_3d import LiDARInstance3DBoxes
+from calib3d.registry import TRANSFORMS
+from calib3d.structures.bbox_3d import LiDARInstance3DBoxes
 
 
 @TRANSFORMS.register_module()

@@ -3,7 +3,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from mmengine.model import BaseModule
 
-from mmdet3d.registry import MODELS
+from calib3d.registry import MODELS
 
 
 @MODELS.register_module()

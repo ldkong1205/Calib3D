@@ -4,7 +4,7 @@ import numpy as np
 from mmcv.transforms import BaseTransform, Compose
 from PIL import Image
 
-from mmdet3d.registry import TRANSFORMS
+from calib3d.registry import TRANSFORMS
 
 
 def get_dtu_raydir(pixelcoords, intrinsic, rot, dir_norm=None):

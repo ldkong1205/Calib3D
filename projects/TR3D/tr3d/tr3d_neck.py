@@ -13,7 +13,7 @@ except ImportError:
 from mmengine.model import BaseModule
 from torch import nn
 
-from mmdet3d.registry import MODELS
+from calib3d.registry import MODELS
 
 
 @MODELS.register_module()

@@ -9,7 +9,7 @@ import numpy as np
 from lyft_dataset_sdk.lyftdataset import LyftDataset as Lyft
 from pyquaternion import Quaternion
 
-from mmdet3d.datasets.convert_utils import LyftNameMapping
+from calib3d.datasets.convert_utils import LyftNameMapping
 from .nuscenes_converter import (get_2d_boxes, get_available_scenes,
                                  obtain_sensor2top)
 

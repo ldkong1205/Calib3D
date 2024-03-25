@@ -1,8 +1,8 @@
 # Copyright (c) OpenMMLab. All rights reserved.
-from mmdet3d.models.layers import make_sparse_convmodule
-from mmdet3d.models.layers.spconv import IS_SPCONV2_AVAILABLE
-from mmdet3d.models.middle_encoders import SparseEncoder
-from mmdet3d.registry import MODELS
+from calib3d.models.layers import make_sparse_convmodule
+from calib3d.models.layers.spconv import IS_SPCONV2_AVAILABLE
+from calib3d.models.middle_encoders import SparseEncoder
+from calib3d.registry import MODELS
 
 if IS_SPCONV2_AVAILABLE:
     from spconv.pytorch import SparseConvTensor

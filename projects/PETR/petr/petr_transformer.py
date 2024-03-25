@@ -20,7 +20,7 @@ from mmengine.model import BaseModule
 from mmengine.model.weight_init import xavier_init
 
 # from mmcv.utils import deprecated_api_warning
-from mmdet3d.registry import MODELS, TASK_UTILS
+from calib3d.registry import MODELS, TASK_UTILS
 
 
 @MODELS.register_module()

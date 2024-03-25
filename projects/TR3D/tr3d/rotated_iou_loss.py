@@ -7,8 +7,8 @@ from mmdet.models.losses.utils import weighted_loss
 from torch import Tensor
 from torch import nn as nn
 
-from mmdet3d.models import rotated_iou_3d_loss
-from mmdet3d.registry import MODELS
+from calib3d.models import rotated_iou_3d_loss
+from calib3d.registry import MODELS
 
 
 def diff_diou_rotated_3d(box3d1: Tensor, box3d2: Tensor) -> Tensor:

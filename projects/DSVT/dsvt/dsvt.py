@@ -3,9 +3,9 @@ from typing import Dict, List, Optional
 import torch
 from torch import Tensor
 
-from mmdet3d.models import Base3DDetector
-from mmdet3d.registry import MODELS
-from mmdet3d.structures import Det3DDataSample
+from calib3d.models import Base3DDetector
+from calib3d.registry import MODELS
+from calib3d.structures import Det3DDataSample
 
 
 @MODELS.register_module()

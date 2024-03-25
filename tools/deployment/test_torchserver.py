@@ -3,7 +3,7 @@ from argparse import ArgumentParser
 import numpy as np
 import requests
 
-from mmdet3d.apis import inference_detector, init_model
+from calib3d.apis import inference_detector, init_model
 
 
 def parse_args():
