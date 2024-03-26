@@ -26,7 +26,7 @@
 </p>
 
 <p align="center">
-  <a href="" target='_blank'>
+  <a href="https://arxiv.org/abs/2403.17010" target='_blank'>
     <img src="https://img.shields.io/badge/Paper-%F0%9F%93%83-slategray">
   </a>
   
@@ -68,7 +68,7 @@ Visit our [project page](https://ldkong.com/Calib3D) to explore more examples. :
 
 ## Updates
 
-- \[2024.03\] - Our [paper]() is available on arXiv. The code has been made publicly accessible. :rocket:
+- \[2024.03\] - Our [paper](https://arxiv.org/abs/2403.17010) is available on arXiv. The code has been made publicly accessible. :rocket:
 
 
 
@@ -1085,7 +1085,7 @@ If you find this work helpful for your research, please kindly consider citing o
 @article{kong2024calib3d,
     author = {Lingdong Kong and Xiang Xu and Jun Cen and Wenwei Zhang and Liang Pan and Kai Chen and Ziwei Liu},
     title = {Calib3D: Calibrating Model Preferences for Reliable 3D Scene Understanding},
-    journal = {arXiv preprint arXiv:2403.},
+    journal = {arXiv preprint arXiv:2403.17010},
     year = {2024},
 }
 ```
