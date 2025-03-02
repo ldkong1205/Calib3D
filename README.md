@@ -1082,11 +1082,12 @@ To learn more usage about this codebase, kindly refer to [GET_STARTED.md](docs/G
 If you find this work helpful for your research, please kindly consider citing our papers:
 
 ```bibtex
-@article{kong2024calib3d,
+@inproceedings{kong2025calib3d,
     author = {Lingdong Kong and Xiang Xu and Jun Cen and Wenwei Zhang and Liang Pan and Kai Chen and Ziwei Liu},
     title = {Calib3D: Calibrating Model Preferences for Reliable 3D Scene Understanding},
-    journal = {arXiv preprint arXiv:2403.17010},
-    year = {2024},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
+    pages = {1965-1978},
+    year = {2025},
 }
 ```
 ```bibtex
